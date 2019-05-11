@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color:rgb(145, 212, 145);
+    min-width: 360px;
+  }
+  header{
+    background: url(../data/friedhof2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 430px;
+  }
+  @media screen and (max-width: 990px){
+    header{
+      min-height: 215px;
+    }
+  }
+
+  
+  
